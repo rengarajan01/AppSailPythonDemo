@@ -8,13 +8,13 @@ Example:
 
 Python Frameworks in general won't handle all the incoming requests in production environment, we need to use tools like gunicorn to handle all the request. If you are using gunicorn refer to https://docs.gunicorn.org/en/stable/ for the set-up in your application and change the command in app-config.json to `python3 -u -m gunicorn main:app --bind 0.0.0.0:$X_ZOHO_CATALYST_LISTEN_PORT`
 
+app-config.json after changes
 ```
 {
-	"command": "python3 -u -m gunicorn main:app --bind 0.0.0.0:9000",
-	"buildPath": "//AppSail/AppSailPython",
+	"command": "python3 -u -m gunicorn main:app --bind 0.0.0.0:$X_ZOHO_CATALYST_LISTEN_PORT",
+	"buildPath": "/myLocation/AppSail/AppSailPython",
 	"stack": "python_3_9",
 	"env_variables": {},
 	"memory": 256
 }
-
 ```
