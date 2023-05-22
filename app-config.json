@@ -1,6 +1,6 @@
 {
 	"command": "python3 main.py",
-	"buildPath": "/Users/renga-16116/Documents/CatalystPersonal/AppSail/AppSailPython",
+	"buildPath": "/myLocation/AppSail/AppSailPython",
 	"stack": "python_3_9",
 	"env_variables": {},
 	"memory": 256
