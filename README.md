@@ -6,7 +6,9 @@ Reason: In the tutorial we were using python virtual environment to create the a
 Example:
 `pip install flask -t .`
 
-Typically, Python frameworks are unable to manage all incoming requests in a production environment. To effectively handle these requests, it is necessary to employ tools such as gunicorn. If you are utilizing gunicorn, please consult the documentation at https://docs.gunicorn.org/en/stable/ for configuring it in your application. Additionally, remember to modify the command in app-config.json to accommodate the changes.
+Typically, Python frameworks are unable to manage all incoming requests in a production environment. To effectively handle these requests, it is necessary to employ tools such as gunicorn. If you are utilizing gunicorn, please consult the documentation at
+https://docs.gunicorn.org/en/stable/ 
+for configuring it in your application. Additionally, remember to modify the command in app-config.json to accommodate the changes.
 
 app-config.json after changes
 ```
